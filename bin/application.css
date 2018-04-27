@@ -1,0 +1,52 @@
+
+/* 
+ * Student ID: 2016026
+ * Name: Sameeha Rahman
+ */
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*background colour*/
+.mainBack{
+	-fx-background-color:rgb(160.0,192.0,255.0);
+}
+
+/*textfield*/
+.text-field{
+	-fx-alignment:center;
+    -fx-background-radius: 20.0;
+    -fx-border-width: 4.0;
+    -fx-max-width: 50.0px;
+    -fx-border-color: #E6AF2E;
+    -fx-border-radius: 17.0;
+}
+
+/*label*/
+.label{
+	-fx-font-size: 1.25em;
+}
+
+/* button css*/
+.button{
+	-fx-padding: 8.0 15.0 15.0 15.0;
+	-fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #F64740 0.0%, #AF0A0A 100.0%),
+        #AF0A0A,
+        #F64740,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #F64740, #AF0A0A);
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 20.0;
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    -fx-text-fill: white;   
+    -fx-font-weight: bold;
+    -fx-font-size: 1.0em;
+}
+
+/*button hover effect */
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #91D108 0.0%, #078420 100.0%),
+        #078420,
+        #91D108,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #91D108, #078420);
+        -fx-text-fill: black; 
+}
