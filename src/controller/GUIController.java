@@ -147,7 +147,7 @@ public class GUIController {
 							&& !visitedNodes.contains(cellDetails[newI][newJ])) {
 
 						// find the final cost of this new position node
-						double fValue = cellDetails[newI][newJ].getHeuristic() + cellDetails[newI][newJ].getWeight();
+						double fValue = cellDetails[newI][newJ].getHeuristic() + cellDetails[newI][newJ].getWeight() + (node.getFinalCost() - node.getHeuristic());
 
 						// set the calculated final cost to this new position nodes f value
 						cellDetails[newI][newJ].setFinalCost(fValue);
